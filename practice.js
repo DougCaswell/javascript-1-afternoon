@@ -46,9 +46,9 @@ var groceries = ["apples", "milk", "eggs", "bread"];
 function doubleCheck (array) {
   if (array.indexOf("chocolate") == -1) {
     array.push("chocolate")
-    return array
   }
-}
+  return array;
+};
 
 //////////////////PROBLEM 5////////////////////
 
